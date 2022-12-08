@@ -10,6 +10,7 @@ from flask_gravatar import Gravatar
 from functools import wraps
 from flask_ckeditor import CKEditor
 import os
+import email_validator
 
 from sqlalchemy import Table, Column, Integer, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
